@@ -50,6 +50,6 @@ server.on("request", (req, res) => {
   server.listen({
     port: process.env.PORT,
 }, () => {
-    console.log(chalk.green(`Welcome to ${chalk.green.bold('Incognito Tabs. ')}If you encounter an error, report it to xineese#0 on discord.`))
+    console.log(chalk.green(`Welcome to ${chalk.green.bold('Incognito Tabs. ')}If you see an error, report it to xineese#0 on discord.`))
     console.log(chalk.green.bold("[INGOGNITOTABS] ") + "live at port " + chalk.bold.green(port));
   });
